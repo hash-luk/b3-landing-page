@@ -1,0 +1,57 @@
+#navigation > ul >li{
+    display: inline-block;
+}
+
+#navigation>ul>li>a {
+    text-decoration: none;
+    font-size: 15pt;
+    font-weight: 400;
+    color: #6066F2;
+    cursor: pointer;
+    line-height: 40px;
+    padding: 0 5px;
+    transition: all .2s ease-in-out both;
+    -webkit-transition: all .2s ease-in-out both;
+}
+
+#navigation>ul>li>a:hover {
+    color: #8a378d;
+}
+
+.button {
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 23px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    color: #FFF;
+    font-size: 10pt;
+    cursor: pointer;
+    margin-left: 5px;
+    font-weight: 700;
+    transition: all .2s ease-in-out both;
+    -webkit-transition: all .2s ease-in-out both;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.button > img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.button:hover {
+    background-color: #8a378d;
+}
+
+#btn-cart {
+    background-color: #488CF5;
+}
+
+#btn-login {
+    background-color: #F4891F;
+}
