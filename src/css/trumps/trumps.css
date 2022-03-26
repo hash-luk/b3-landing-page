@@ -5,3 +5,21 @@
 #btn-login:hover {
     background-color: #fda042;
 }
+
+.menu-toggle {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+    display: none;
+}
+
+.menu-toggle>img {
+    height: 40px;
+    width: 40px;
+}
+
+.item-menu-responsive {
+    display: none;
+}

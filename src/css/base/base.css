@@ -8,7 +8,15 @@
     -webkit-font-smoothing: antialiased;
 }
 
-#container {
+html {
+    overflow: hidden;
+}
+
+body {
+    overflow: hidden;
+}
+
+section {
     display: grid;
     width: 80vw;
     height: 100vh;
@@ -21,7 +29,7 @@
 
 }
 
-#header {
+header {
     grid-area: header;
     height: 40px;
     display: flex;
@@ -29,4 +37,27 @@
 
 nav {
     flex-grow: 1;
+}
+
+article {
+    grid-area: article;
+    overflow: hidden;
+}
+
+picture {
+    grid-area: image;
+    justify-self: end;
+    overflow: hidden;
+}
+
+footer {
+    grid-area: footer;
+    margin: 0px 0px 0px 16px;
+    font-weight: 300;
+    color: #ADADAD;
+}
+
+footer>small>a {
+    text-decoration: none;
+    color: #6066F2;
 }
