@@ -92,7 +92,7 @@ function App() {
               <input type="text" placeholder="Digite sua mensagem" />
             </div>
             <button className="btn-send" onClick={openModal}>
-              ENVIAR{" "}
+              ENVIAR
               <i>
                 <img src={sendIcon} alt="Icone de envio" />
               </i>
