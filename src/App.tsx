@@ -22,7 +22,16 @@ function App() {
   }
 
   function openModal() {
-    $('#openModal').css('display', 'block');
+    let emailInput = $("input[type=email]").val();
+    let messageInput = $("input[type=text").val();
+
+    if(emailInput === "" || messageInput === "") {
+      alert("Por favor preencha todos os campos");
+    } else {
+      $('#openModal').css('display', 'block');
+      $("input[type=email]").val("")
+      $("input[type=text").val("")
+    }
   }
 
   return (
