@@ -29,7 +29,7 @@
 - **Aproveite**
 
 ## Licença ⚖
-[MIT]()
+[MIT](https://github.com/hash-luk/b3-landing-page/blob/main/LICENSE)
 
 #
 
